@@ -1,0 +1,74 @@
+
+
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc/HYPOTROCOID-parametric-curve$ date
+Fri 02 Jun 2023 08:47:23 PM +08
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc/HYPOTROCOID-parametric-curve$ uname -a
+Linux HPLaptop-01-ub20 5.15.0-73-lowlatency #80~20.04.1-Ubuntu SMP PREEMPT Wed May 24 00:20:28 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc/HYPOTROCOID-parametric-curve$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.6 LTS
+Release:	20.04
+Codename:	focal
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc/HYPOTROCOID-parametric-curve$ 
+
+wruslan@HPLaptop-01-ub20:~$ cd github/wruslancnc/
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc$ 
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc$ ls -l
+total 56
+drwxrwxr-x  9 wruslan wruslan 4096 Jun  1 17:39 ASTEPI-parametric-curve
+drwxrwxr-x  9 wruslan wruslan 4096 Jun  1 17:44 BUTTERFLY-parametric-curve
+drwxrwxr-x 10 wruslan wruslan 4096 Jun  1 06:21 CNC-execution-plan
+drwxrwxr-x  9 wruslan wruslan 4096 Jun  1 20:45 ELLIPSE-parametric-curve
+drwxrwxr-x  9 wruslan wruslan 4096 Jun  2 20:16 HYPOTROCOID-parametric-curve
+drwxrwxr-x  4 wruslan wruslan 4096 Jun  1 21:00 Linux-CNCDriver-RTOS-Parport
+drwxrwxr-x  4 wruslan wruslan 4096 Jun  1 20:31 Linux-CNCReceiver-Counter-PCIE-1884
+drwxrwxr-x  3 wruslan wruslan 4096 Jun  1 20:00 SKEWED-ASTROID-parametric-curve
+drwxrwxr-x  3 wruslan wruslan 4096 Jun  1 19:58 SNAHYP-parametric-curve
+drwxrwxr-x  3 wruslan wruslan 4096 Jun  1 19:59 SNAILSHELL-parametric-curve
+drwxrwxr-x  9 wruslan wruslan 4096 Jun  1 17:50 TEARDROP-parametric-curve
+drwxrwxr-x  8 wruslan wruslan 4096 Jun  1 15:32 Template1-parametric-curve
+drwxrwxr-x  8 wruslan wruslan 4096 Jun  1 15:32 Template2-parametric-curve
+drwxrwxr-x  4 wruslan wruslan 4096 Jun  1 20:37 Win10-CNCReceiver-Counter-PCIE1884
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc$ cd HYPOTROCOID-parametric-curve/
+
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc/HYPOTROCOID-parametric-curve$ ls -l
+total 28
+drwxrwxr-x 3 wruslan wruslan 4096 Jun  2 20:01 HYPOTROCOID-c-and-ngc-codes
+drwxrwxr-x 2 wruslan wruslan 4096 Jun  2 20:39 HYPOTROCOID-feedrate-chorderror-analysis
+drwxrwxr-x 3 wruslan wruslan 4096 Jun  2 20:02 HYPOTROCOID-gcode-generation-plots
+drwxrwxr-x 4 wruslan wruslan 4096 Jun  1 15:32 HYPOTROCOID-parametric-equation
+drwxrwxr-x 2 wruslan wruslan 4096 Jun  2 20:12 HYPOTROCOID-screenshots
+drwxrwxr-x 2 wruslan wruslan 4096 Jun  2 20:14 HYPOTROCOID-texts
+-rw-rw-r-- 1 wruslan wruslan  157 Jun  2 20:16 README.md
+
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc/HYPOTROCOID-parametric-curve$ git add .
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc/HYPOTROCOID-parametric-curve$ git commit -m 'add images run analysis'
+[main 0ed4780] add images run analysis
+ 10 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 HYPOTROCOID-feedrate-chorderror-analysis/01-Hypotrocoid-Screenshot_2023-06-02_20-32-38.png
+ create mode 100644 HYPOTROCOID-feedrate-chorderror-analysis/02-Screenshot_2023-06-02_20-33-16.png
+ create mode 100644 HYPOTROCOID-feedrate-chorderror-analysis/03-Screenshot_2023-06-02_20-33-51.png
+ create mode 100644 HYPOTROCOID-feedrate-chorderror-analysis/04-Screenshot_2023-06-02_20-34-11.png
+ create mode 100644 HYPOTROCOID-feedrate-chorderror-analysis/05-Screenshot_2023-06-02_20-34-32.png
+ create mode 100644 HYPOTROCOID-feedrate-chorderror-analysis/06-Screenshot_2023-06-02_20-35-14.png
+ create mode 100644 HYPOTROCOID-feedrate-chorderror-analysis/07-Screenshot_2023-06-02_20-35-52.png
+ create mode 100644 HYPOTROCOID-feedrate-chorderror-analysis/08-Screenshot_2023-06-02_20-36-45.png
+ create mode 100644 HYPOTROCOID-feedrate-chorderror-analysis/09-Screenshot_2023-06-02_20-37-59.png
+ create mode 100644 HYPOTROCOID-feedrate-chorderror-analysis/10-Screenshot_2023-06-02_20-38-57.png
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc/HYPOTROCOID-parametric-curve$ 
+
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc/HYPOTROCOID-parametric-curve$ git push -u origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 1.82 MiB | 1.28 MiB/s, done.
+Total 13 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/wruslancnc/HYPOTROCOID-parametric-curve.git
+   3fa52fd..0ed4780  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+wruslan@HPLaptop-01-ub20:~/github/wruslancnc/HYPOTROCOID-parametric-curve$ 
+
+
